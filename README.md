@@ -1,0 +1,1 @@
+I firstly experiment my K-means algorithms locally with 1,000 fruit images of apple and oranges. Then I implement my method on AWS for 1,000,000 fruit images.
