@@ -5,7 +5,7 @@ I use the tiny image data from Data Access Layer(DAL) https://github.com/cioc/DA
 
 For this project, I use two evaluation collection. The first one is small, including 200 images, while the other collection is larger, including 10,000 images and only being visible on Amazon Web Service(AWS). 
 
-Here are pieces simple codes to show how to extract and display them.
+The following bit of simple code to show how to extract and display them.
 
 ```python
 from DAL import create
