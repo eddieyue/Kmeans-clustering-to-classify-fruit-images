@@ -1,5 +1,5 @@
-Kmeans Clustering for fruit images
-==================================
+Fruit Images
+============
 
 I use the tiny image data from Data Access Layer(DAL) https://github.com/cioc/DAL, which is a library that makes it easy to use the datasets. 
 
@@ -21,11 +21,14 @@ Simages = tinyimages.byid(idS)
 tinyimages.display(Simages)
 ```
 
-Procedures
-==========
+Kmeans on local small collection
+================================
 
 Initially, I transform the 32*32 pixels images dataset to 960 gist-component like dataset as numpy nested array. Then I normalize each gist across whole data set in order to make the k-means clustering easier.  
 
 In next step, I use the k-means algorithm on the local small images collection with random starting points, pick the least distortion result and visualize my resulting clusters. 
+
+Kmeans on AWS large collection
+================================
 
 Finally, I implement paralized version k-means to large images collection on AWS and plot the distortion with the number of clusters.
