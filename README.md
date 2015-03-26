@@ -9,15 +9,15 @@ The following bit of simple code to show how to extract and display them.
 
 ```python
 from DAL import create
-#create a handle to the tinyimages dataset
-tinyimages = create('tinyimages')
-idS = tinyimages.labelled(’small’)
-idL = tinyimages.labelled(’large’)
 
-#load in tinyimages for locally small collection
+# Create a handle to the tinyimages dataset
+tinyimages = create('tinyimages')
+
+# Load in tinyimages for locally small collection
+idS = tinyimages.labelled(’small’)
 Simages = tinyimages.byid(idS)
 
-#display small images collection
+# Display small images collection, will show all tiny images in the collection 
 tinyimages.display(Simages)
 ```
 
