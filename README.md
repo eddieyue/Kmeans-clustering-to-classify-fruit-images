@@ -32,3 +32,7 @@ Kmeans on AWS large collection
 ================================
 
 Finally, I implement paralized version k-means to large images collection on AWS and plot the distortion with the number of clusters.
+
+Please check the notebook here for detail:
+
+http://nbviewer.ipython.org/github/eddieyue/Kmeans-clustering-to-classify-fruit-images/blob/master/Kmeans%20Clustering%20to%20classify%20Fruit%20Pictures.ipynb
