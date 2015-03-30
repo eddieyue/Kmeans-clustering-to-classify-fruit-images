@@ -28,10 +28,14 @@ Initially, I transform the 32*32 pixels images dataset to 960 gist-component lik
 
 In next step, I use the k-means algorithm on the local small images collection with random starting points, pick the least distortion result and visualize my resulting clusters. 
 
+From the clustering result, the preformance to classify the banana and tomato is getting better with bigger K, the number of cluster. However, if K goes too large, clustering would be meaningless, for example every image has it's own cluster. Hence, according to the plot, the optimal K would be 5 or 6. 
+
 Kmeans on AWS large collection
 ================================
 
-Finally, I implement paralized version k-means to large images collection on AWS and plot the distortion with the number of clusters.
+Finally, I implement paralized version k-means to large images collection on AWS. Since there are too many images to visualize, I just plot the distortion of clustering against the value of K.
+
+Due to the AWS dependency, the plot for large collection on AWS is missing. To submit the notebook on AWS could easily fix this problem.
 
 Please check the notebook here for detail:
 
