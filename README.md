@@ -35,7 +35,7 @@ Kmeans on AWS large collection
 
 Finally, I implement paralized version k-means to large images collection on AWS. Since there are too many images to visualize, I just plot the distortion of clustering against the value of K.
 
-Due to the AWS dependency, the plot for large collection on AWS is missing. To submit the notebook on AWS could easily fix this problem.
+Due to the AWS and large collection data dependency , the plot for large collection on AWS is missing. I will fix it as soon as I get the permission to access the data.
 
 Please check the notebook here for detail:
 
