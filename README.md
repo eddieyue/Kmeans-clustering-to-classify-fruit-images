@@ -28,7 +28,7 @@ Initially, I transform the 32*32 pixels images dataset to 960 gist-component lik
 
 In next step, I use the k-means algorithm on the local small images collection with random starting points, pick the least distortion result and visualize my resulting clusters. 
 
-From the clustering result, the preformance to classify the banana and tomato is getting better with bigger K, the number of cluster. However, if K goes too large, clustering would be meaningless, for example every image has it's own cluster. Hence, according to the plot, the optimal K would be 5 or 6. 
+From the clustering result, the preformance to classify the banana and tomato is getting better with bigger K, the number of cluster. However, if K goes too large, clustering would be meaningless, for example every image has it's own cluster. When K is 5 or 6, even though there are clusters with half misclassified fruit, a few clusters have almost prefect classification result. Hence, in my opinion, the optimal number of K for this dataset is 5 or 6.
 
 Kmeans on AWS large collection
 ================================
